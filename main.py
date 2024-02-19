@@ -3,10 +3,6 @@ import functools
 print("hello")
 print("World")
 
-def factorial(n):
-    result = 1
-    for num in range(1, n + 1):
-        result *= num
-    return result
-print(factorial(5))
+def sum(a, b):
+    return a + b
 
